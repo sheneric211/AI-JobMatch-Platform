@@ -14,7 +14,7 @@ export const ListJob = ({ setSelectedItem }) => {
     const dataJob = [
         {
             "id": 1,
-            "company": "Company name",
+            "company": "NE Championship",
             "name": "Senior UX/UI Designer",
             "location": ["Location", "Remote", "Full-time"],
             "skills": ["UI Design", "Figma", "Landing Page"],
@@ -25,13 +25,24 @@ export const ListJob = ({ setSelectedItem }) => {
         },
         {
             "id": 2,
-            "company": "Another Company",
+            "company": "Meta",
+            "name": "Software Engineer, Machine Learning",
+            "location": ["Menlopark, CA", "Remote", "Part-time"],
+            "skills": ["JavaScript", "Python", "C/C++"],
+            "logoJob": "https://1000logos.net/wp-content/uploads/2021/10/Meta-Logo.png",
+            "jobDescription": {
+                "content": "<h3 className='text-xl font-semibold'>About the job</h3>\n<p>Meta is embarking on the most transformative change to its business and technology in company history, and our Machine Learning Engineers are at the forefront of this evolution. By leading crucial projects and initiatives that have never been done before, you have an opportunity to help us advance the way people connect around the world. The ideal candidate will have industry experience working on a range of recommendation, classification, and optimization problems. You will bring the ability to own the whole ML life cycle, define projects and drive excellence across teams. You will work alongside the world’s leading engineers and researchers to solve some of the most exciting and massive social data and prediction problems that exist on the web.</p><p>Minimum Qualifications:</p><ul><li> ● Experience with developing machine learning models at scale from inception to business impact</li><li> ● Track record of setting technical direction for a team, driving consensus and successful cross-functional partnerships</li><li> ● Bachelor's degree in Computer Science, Computer Engineering, relevant technical field, or equivalent practical experience.</li></ul><p>Preferred Qualifications:</p><ul><li> ● Masters degree or PhD in Computer Science or a related technical field</li><li> ● Exposure to architectural patterns of large scale software applications</li></ul>"
+            }
+        },
+        {
+            "id": 3,
+            "company": "Adobe",
             "name": "Junior Frontend Developer",
             "location": ["Location", "Remote", "Part-time"],
             "skills": ["JavaScript", "React", "HTML/CSS"],
-            "logoJob": "https://s3-alpha-sig.figma.com/img/fd47/49c6/889dbd1d771853657c39e1546f5dbf9c?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wh6s4Fto36sdbU-nRq26FfHO7oy6TL-qn6UbFUoPGUCFTig2BgLdiCDGq2ucxDFvgXkT-NNlSIyhKpXIsrqn~qiQhQ3JwCN1CfKEUa-MK4a3gnqlhEUbeiDoSITmjnkJ4xnj8UJR6101PtmR~C-3IFGP804gD3T8vre9yBSnC6bI0qVEg9ngGhFDwolh-TjETIb44~r~~FMQRQmA3XPhd3bCwGXzbRfdDsCj3rr7A2bGlWYQTs3UTY2tITKhoYjG0H~f~IbbL9ebl5baNfUi8BBXwhCyEGS4OKy3ohlQd3QAn54p0q-LPD7VdiAHov6qAZ5Re6VsrUNvllfJKn9MEg__",
+            "logoJob": "https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo-768x432.png",
             "jobDescription": {
-                "content": "<p>This is a job description for a junior frontend developer.</p>"
+                "content": "<h3 className='text-xl font-semibold'>About the job</h3>\n<p>Adobe is the global leader in digital media and digital marketing solutions. Our creative, marketing and document solutions empower everyone – from emerging artists to global brands – to bring digital creations to life and deliver immersive, compelling experiences to the right person at the right moment for the best results. In short, Adobe is everywhere, and we’re changing the world through digital experiences.</p>"
             }
         }
     ];

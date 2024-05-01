@@ -1,0 +1,9 @@
+# netlify.toml
+[build]
+  publish = "dist" # or whatever your build output folder is
+  command = "npm run build" # or your build command
+
+[dev]
+  port = 3000 # The port that Netlify Dev will run on
+  targetPort = 3006 # The port of your actual development server
+  autoLaunch = true # Automatically open the browser

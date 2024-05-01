@@ -30,33 +30,9 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className='bg-[#E8FAFA] py-10'>
-                <p className='text-[#5A5A5A] font-semibold text-3xl items-center flex justify-center'>200,000+ jobs from the most popular platforms</p>
+                <p className='text-[#5A5A5A] font-semibold text-3xl items-center flex justify-center'></p>
                 <div className='flex justify-center gap-[70px] mt-14 mb-8'>
-                    <div className='w-[190px] h-[50px]'>
-                        <a href='https://www.linkedin.com/'>
-                            <img src="https://s3-alpha-sig.figma.com/img/b8bb/20f4/e117f63ca1f7a151020c9de9eba63abf?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JzZAT63wmzaZO5y9~UMR8AwzVgfGANwx8~beT48uno96ZDp9faT4pIxKBE6etnDJdsSP1GWYKhJtL3zRC41yLqdx3lBFlDSxuzvRWBamydloYzYeWgm1WQaHDdfoo8YBTpkO2UQYbu77uv~nQMd46nweKhThwk57~tihc7w9sPLudhhUX7DSE3GwOBSpknF5I5Ocuz0qkRnmm3TLkRD62HeLUnkIsNEroQE~WAPngpEerL5BOp40RzxThvEiCul4JIn~8RWuDKpiSgd0J0pHny549u-7RTTQ-6KZLDvLvM8nNnyAKMgQ2-FG-w~lPR1M3dJUpzyTb8AumyeCugfTVQ__" alt="" />
-                        </a>
-                    </div>
-                    <div className='w-[190px] h-[50px]'>
-                        <a href='https://www.glassdoor.com/index.htm'>
-                            <img src={glassdoor} alt="" />
-                        </a>
-                    </div>
-                    <div className='w-[190px] h-[50px]'>
-                        <a href='https://www.indeed.com/'>
-                            <img src={indeed} alt="" />
-                        </a>
-                    </div>
-                    <div className='w-[190px] h-[50px]'>
-                        <a href='https://www.upwork.com/'>
-                            <img src={upwork} alt="" />
-                        </a>
-                    </div>
-                    <div className='w-[190px] h-[50px]'>
-                        <a href='https://www.ziprecruiter.co.uk/'>
-                            <img src={ziprecruiter} alt="" />
-                        </a>
-                    </div>
+  
                 </div>
             </div>
             <div className='py-[120px] bg-gradient-to-r from-[#fff] via-[#f7fdfd] to-[#ebfafb]'>
